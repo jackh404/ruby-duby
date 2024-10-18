@@ -8,7 +8,7 @@ end
 
 class CityList
 	def initialize
-		@cities = CityList.new
+		@cities = Array.new
 	end
 
 	def add_city(c)
